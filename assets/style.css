@@ -1,0 +1,118 @@
+
+header {
+    padding: 1px;
+    text-align: center;
+    background:darkred;
+    color: white;
+}
+nav {
+    padding: 20px;
+    background-color: lightblue;
+
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 12pix;
+}
+body {
+    font-size: 14px;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    justify-content:flex-start ;
+}
+nav a {
+    color: darkred;
+    padding: 5px 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: yellow;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: darkred;
+    color: #fff;
+    margin-top: auto;
+  }
+  
+  .work {
+    flex: 1;
+    background-color:lightblue;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .work {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .work > header {
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+  }
+  
+  .work > p {
+    text-align: center;
+  }
+  
+  .work > img {
+    width: 100%;
+  }
+  .Contact {
+    flex: 1;
+    background-color:lightblue;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .Contact {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .Contact > header {
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+  }
+  
+  .Contact > p {
+    text-align: center;
+  }
+  
+  .Contact > img {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+  
