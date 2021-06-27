@@ -77,6 +77,10 @@ nav a {
   .work > img {
     width: 100%;
   }
+  .work:hover,
+  .work:hover .work > header {
+      box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+  }
   .Contact {
     flex: 1;
     background-color:lightblue;
